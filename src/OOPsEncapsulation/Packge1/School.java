@@ -7,6 +7,9 @@ public class School {
     private int turnover;
     String SchoolAchievement; //this is default package access modifier used in the package only
 
+    protected int schoolStudentCount;
+
+
     static void main() {
         School school = new School();
         school.turnover = 9600;
